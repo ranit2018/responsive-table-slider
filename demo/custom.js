@@ -4,6 +4,6 @@ jQuery(document).ready(function() {
         activeColl: 2,
         navDots: true,
         navText: ['<span>Prev</span>', '<span>Next</span>'],
-        initResolution: 480
+        initResolution: 2560
     });
 })
