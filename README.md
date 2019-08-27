@@ -61,7 +61,7 @@ It's petty simple
 |   activeColl   |   3    | integer:    active Item number  |
 |   navDots   |     false   |   boolen: true or false to active the dots    |
 |   initResolution  |   640     | integer: initialize tableJS from the resolution|
-|   navText     |   "&lt;span&gt;Prev</span>", "<span>Next</span>"    | array: ["Previous item", "Next item"] |
+|   navText     |   "&lt;span&gt;Prev&lt;/span&gt;", "&lt;span&gt;Next&lt;/span&gt;"    | array: ["Previous item", "Next item"] |
 
 
 
