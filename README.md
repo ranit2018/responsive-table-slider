@@ -62,7 +62,7 @@ It's petty simple
 |   `activeColl`   |   3    | **integer :**    active Item number  |
 |   `navDots`   |     false   |   **boolen :** true or false to active the dots    |
 |   `initResolution`  |   640     | **integer :** initialize tableJS from the resolution|
-|   `navText`     |   `"<span>Prev&lt;/span>", "<span>Next</span>"`   | **array :** ["Previous item", "Next item"] |
+|   `navText`     |   `"<span>Prev</span>", "<span>Next</span>"`   | **array :** ["Previous item", "Next item"] |
 
 
 
