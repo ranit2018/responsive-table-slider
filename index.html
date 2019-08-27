@@ -1,10 +1,109 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Responsive table slider</title>
-</head>
-<body>
-	<h1>Responsive table slider</h1>
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive table slider</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>   
+    <link rel="stylesheet" href="tableJS-production.css">
+</head>
+
+<body>
+    <div class="tableWrap">
+        <table>
+            <tr>
+                <th>Table Head one</th>
+                <th>Table Head two</th>
+                <th>Table Head three</th>
+                <th>Table Head four</th>
+                <th>Table Head five</th>
+                <th>Table Head six</th>
+                <th>Table Head seven</th>
+                <th>Table Head eight</th>
+                <th>Table Head nine</th>
+                <th>Table Head ten</th>
+            </tr>
+            <tr>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+
+            </tr>
+            <tr>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+
+            </tr>
+            <tr>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+
+            </tr>
+            <tr>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+
+            </tr>
+            <tr>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+                <td> Dummy content here </td>
+
+            </tr>
+        </table>
+
+    </div>
+    <script src="tableJS-production.js"></script>
+    <script>
+        jQuery('table').TableJS({
+            gap: 70,
+            activeColl: 2,
+            navDots: true,
+            navText: ['<span>Prev</span>', '<span>Next</span>'],
+            initResolution: 480
+        });
+    </script>
 </body>
+
 </html>
