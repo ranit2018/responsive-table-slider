@@ -6,6 +6,10 @@ Make any table as a slider on responsive view
 
 Now you can turn any table into swipeable slider for both desktop and mobile devices.
 
+## Demo 
+
+You can check the demo here: [Goto demo page](https://ranit2018.github.io/responsive-table-slider/demo/index.html)
+
 ### jQuery and jQuery mobile
 
 This plugin needs jQuery and JQuery mobile
