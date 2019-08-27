@@ -12,7 +12,9 @@ This plugin needs jQuery and JQuery mobile
 
 ```
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 
 ```
@@ -47,14 +49,19 @@ It's petty simple
 
 ```
  jQuery('table').TableJS({
+
      // options goes here
+     // ----
  });
 
 ```
 | Option  | Default | Desctiption |
 | ------- | ------- | ----------- |
-|   gap   |   70    | Gap from left and right of the active item |
-|   activeColl   |   2    | active Item number
+|   gap   |   70    | integer:  Gap from left and right of the active item |
+|   activeColl   |   3    | integer:    active Item number  |
+|   navDots   |     false   |   boolen: true or false to active the dots    |
+|   initResolution  |   640     | integer: initialize tableJS from the resolution|
+|   navText     |   "<span>Prev</span>", "<span>Next</span>"    | array: ["Previous item", "Next item"] |
 
 
 
