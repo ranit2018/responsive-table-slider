@@ -43,31 +43,35 @@ It's petty simple
  jQuery('table').TableJS();
 ```
 
+## Options
+
+```
+ jQuery('table').TableJS({
+     // options goes here
+ });
+
+```
+| Option  | Default | Desctiption |
+| ------- | ------- | ----------- |
+|   gap   |   70    | Gap from left and right of the active item |
+|   activeColl   |   2    | active Item number
+
+
+
+
 ## Built on top of
 
 * [jQuey](https://code.jquery.com) - The main library   
 * [jQuery Mobile](https://jquerymobile.com/) - For swipe support
 
-## Contributing
-
-This plugin is build by [Ranit Majumder](#)
-
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Current version: 1.0.0 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Ranit Majumder** - *Main Developer* - [facebook](https://facebook.com/ranit.majumder)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the MIT License
