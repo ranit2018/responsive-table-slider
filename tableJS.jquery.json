@@ -1,0 +1,36 @@
+{
+    "name": "tableJS",
+    "title": "Responsive Table with Swipe Slider",
+    "description": "Make any table as a slider on responsive view.",
+    "keywords": [
+        "jquery-plugins",
+        "table",
+        "responsive-table",
+        "slider",
+        "table-slider",
+        "swiper",
+        "table-swiper",
+        "swipe-slider"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Ranit Majumder",
+        "url": "https://github.com/ranit2018"
+    },
+    "maintainers": [{
+        "name": "Ranit Majumder",
+        "url": "https://github.com/ranit2018"
+    }],
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    }],
+    "bugs": "https://github.com/ranit2018/responsive-table-slider/issues",
+    "homepage": "https://github.com/ranit2018/responsive-table-slider/",
+    "docs": "https://github.com/ranit2018/responsive-table-slider/blob/master/README.mde",
+    "download": "https://github.com/ranit2018/responsive-table-slider/",
+    "dependencies": {
+        "jquery": ">=3.2",
+        "jquery-mobile": "1.4"
+    }
+}
