@@ -1,4 +1,4 @@
-# RESPONSIVE SLIDER TABLE
+# Responsive Table with Swipe Slider
 
 Make any table as a slider on responsive view
 
@@ -51,11 +51,12 @@ It's petty simple
  jQuery('table').TableJS({
 
      // options goes here
-     // ----
+    // ----
+
  });
 
 ```
-| Option  | Default | Desctiption |
+| Options  | Default value | Desctiption |
 | ------- | ------- | ----------- |
 |   gap   |   70    | integer:  Gap from left and right of the active item |
 |   activeColl   |   3    | integer:    active Item number  |
