@@ -57,12 +57,12 @@ It's petty simple
 
 ```
 | Options  | Default value | Desctiption |
-| ------- | ------- | ----------- |
-|   gap   |   70    | integer:  Gap from left and right of the active item |
-|   activeColl   |   3    | integer:    active Item number  |
-|   navDots   |     false   |   boolen: true or false to active the dots    |
-|   initResolution  |   640     | integer: initialize tableJS from the resolution|
-|   navText     |   "&lt;span&gt;Prev&lt;/span&gt;", "&lt;span&gt;Next&lt;/span&gt;"    | array: ["Previous item", "Next item"] |
+| :-------: | :-------: | :-----------: |
+|   `gap`   |   70    | **integer :**  Gap from left and right of the active item |
+|   `activeColl`   |   3    | **integer :**    active Item number  |
+|   `navDots`   |     false   |   **boolen :** true or false to active the dots    |
+|   `initResolution`  |   640     | **integer :** initialize tableJS from the resolution|
+|   `navText`     |   `"&lt;span&gt;Prev&lt;/span&gt;", "&lt;span&gt;Next&lt;/span&gt;"`   | **array :** ["Previous item", "Next item"] |
 
 
 
